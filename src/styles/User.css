@@ -1,6 +1,7 @@
 .user {
   padding: 2px;
   font-size: 22px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
