@@ -1,0 +1,10 @@
+.add-user-button {
+  padding: 8px 18px;
+  border: none;
+  background-color: #4946fa;
+}
+
+.add-user-button:hover {
+  cursor: pointer;
+  color: white;
+}

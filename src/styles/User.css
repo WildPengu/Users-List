@@ -1,0 +1,11 @@
+.user {
+  padding: 2px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.user:hover {
+  background-color: #f73434;
+  cursor: pointer;
+}
