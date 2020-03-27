@@ -4,7 +4,7 @@ import "../styles/UsersContainer.css";
 
 const UsersContainer = props => {
   const users = props.users.map(user => (
-    <div className="user">
+    <div className="user" key={user.id}>
       <User name={user.name} deleteUser={props.deleteUser} id={user.id} />
     </div>
   ));
